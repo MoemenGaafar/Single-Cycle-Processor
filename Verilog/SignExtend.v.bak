@@ -1,0 +1,7 @@
+module SignExtend #(parameter EXT= 16) (A, Y);
+input [EXT-1:0] A; 
+output[31:0] Y; 
+ 
+assign Y = A >>> (32-EXT); 
+
+endmodule

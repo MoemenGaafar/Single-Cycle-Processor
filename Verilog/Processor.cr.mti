@@ -1,0 +1,120 @@
+{D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/RegisterFile.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/RegisterFile.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/datapathtrials.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/datapathtrials.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module datapathtrials
+
+Top level modules:
+	datapathtrials
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/RFlipFlop.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/RFlipFlop.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module RFlipFlop
+
+Top level modules:
+	RFlipFlop
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/ALUDecoder.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/ALUDecoder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALUDecoder
+
+Top level modules:
+	ALUDecoder
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/SignExtend.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/SignExtend.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module SignExtend
+
+Top level modules:
+	SignExtend
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/ControlUnit.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/ControlUnit.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ControlUnit
+
+Top level modules:
+	ControlUnit
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/ALU.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/ALU.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ALU
+
+Top level modules:
+	ALU
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/DataMemory.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/DataMemory.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module DataMemory
+
+Top level modules:
+	DataMemory
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/TestTop.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/TestTop.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module TestTop
+
+Top level modules:
+	TestTop
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/mux2.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/mux2.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux2
+
+Top level modules:
+	mux2
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/Datapath.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/Datapath.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Datapath
+
+Top level modules:
+	Datapath
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/TestBench.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/TestBench.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module TestBench
+
+Top level modules:
+	TestBench
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/Adder.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/Adder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Adder
+
+Top level modules:
+	Adder
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/InstrMemory.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/InstrMemory.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module InstrMemory
+
+Top level modules:
+	InstrMemory
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/testbench2.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/testbench2.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module testbench2
+
+Top level modules:
+	testbench2
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/Microprocessor.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/Microprocessor.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module Microprocessor
+
+Top level modules:
+	Microprocessor
+
+} {} {}} {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/MainDecoder.v} {1 {vlog -work work -stats=none {D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/MainDecoder.v}
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module MainDecoder
+
+Top level modules:
+	MainDecoder
+
+} {} {}}

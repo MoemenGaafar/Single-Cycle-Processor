@@ -1,0 +1,43 @@
+module Datapath(clk, reset, RegWrite, RegDst, ALUSrc, MemWrite, MemtoReg, HalfWord, Shift, ALUControl, Instr); 
+
+input clk, reset; 
+input RegWrite, RegDst, ALUSrc, MemWrite, MemtoReg, HalfWord, Shift;
+input [2:0] ALUControl;
+output [31:0]Instr;  
+
+wire [31:0] ALUResult, WriteData; 
+wire [4:0] PC, PCprime; 
+wire [31:0] ReadData;
+wire [4:0]  WriteReg; 
+wire [31:0] SignImm, SrcA, SrcB; 
+wire [31:0] ReadData2, ReadData3, ExtendedShift, RD1Out;
+wire [31:0] Result;
+
+
+// PC
+RFlipFlop PCreg(clk, reset, PCprime, PC); 
+Adder #(5) PCadder(PC, 5'b1, 1'b0, PCprime); 
+
+
+// Datapath
+RegisterFile regfile(clk, Instr[25:21], Instr[20:16], WriteReg, RD1Out, WriteData, RegWrite, Result);
+
+mux2 #(5) writemux(Instr[20:16], Instr[15:11], RegDst, WriteReg);
+mux2 resultmux(ALUResult, ReadData3, MemtoReg, Result); 
+mux2 smux(WriteData, SignImm, ALUSrc, SrcB); 
+mux2 readdata3mux(ReadData, ReadData2, HalfWord, ReadData3); 
+mux2 Shifter(RD1Out,ExtendedShift,Shift,SrcA);
+
+SignExtend signextend(Instr[15:0], SignImm);
+SignExtend readdatesignextend(ReadData[15:0], ReadData2);
+SignExtend ShiftSignExtend ({{11{Instr[10]}},Instr[10:6]}, ExtendedShift);
+
+ALU alu(SrcA, SrcB, ALUControl, ALUResult); 
+
+DataMemory datamemory(clk, MemWrite, ALUResult, WriteData, ReadData);
+InstrMemory instructionmemory(PC,Instr);
+
+
+
+endmodule
+

@@ -1,0 +1,63 @@
+# Reading C:/Modeltech_pe_edu_10.4a/tcl/vsim/pref.tcl
+# OpenFile {C:/Users/moemen/Desktop/Zewailian Shit/Year 3/Fall/CIE 239/Microprocessor_Alaa/Microprocessor/Verilog/Datapath.v}
+vsim -gui work.Microprocessor
+# //  ModelSim PE Student Edition 10.4a Apr  7 2015 
+# //
+# //  Copyright 1991-2015 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //  THIS DOCUMENT CONTAINS TRADE SECRETS AND COMMERCIAL OR FINANCIAL
+# //  INFORMATION THAT ARE PRIVILEGED, CONFIDENTIAL, AND EXEMPT FROM
+# //  DISCLOSURE UNDER THE FREEDOM OF INFORMATION ACT, 5 U.S.C. SECTION 552.
+# //  FURTHERMORE, THIS INFORMATION IS PROHIBITED FROM DISCLOSURE UNDER
+# //  THE TRADE SECRETS ACT, 18 U.S.C. SECTION 1905.
+# //
+# // NOT FOR CORPORATE OR PRODUCTION USE.
+# // THE ModelSim PE Student Edition IS NOT A SUPPORTED PRODUCT.
+# // FOR HIGHER EDUCATION PURPOSES ONLY
+# //
+# vsim -gui C:\Users\moemen\Desktop\Zewailian Shit\Year 3\Fall\CIE 239\Microprocessor_Alaa\Microprocessor\Verilog\Datapath.v 
+# Start time: 13:13:12 on Jan 12,2020
+# Loading work.Microprocessor
+# Loading work.ControlUnit
+# Loading work.MainDecoder
+# Loading work.ALUDecoder
+# Loading work.Datapath
+# Loading work.RFlipFlop
+# Loading work.Adder
+# Loading work.RegisterFile
+# Loading work.mux2
+# Loading work.SignExtend
+# Loading work.ALU
+# Loading work.DataMemory
+# Loading work.InstrMemory
+add wave sim:/Microprocessor/*
+force -freeze sim:/Microprocessor/clk 1 0, 0 {50 ns} -r 100
+force -freeze sim:/Microprocessor/reset 1'h1 0
+run
+force -freeze sim:/Microprocessor/reset 1'h0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave sim:/Microprocessor/datapath/alu/*
+add wave sim:/Microprocessor/datapath/*
+# Error opening D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/mux2.v
+# Path name 'D:/Alaa/Zewail/Fall 2019/CIE 239/EverythingEverything/EverythingEverything/mux2.v' doesn't exist.
+# End time: 13:23:22 on Jan 12,2020, Elapsed time: 0:10:10
+# Errors: 1, Warnings: 0

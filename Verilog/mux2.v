@@ -1,0 +1,8 @@
+module mux2 #(parameter WIDTH= 32) (A, B, sel, Y);
+
+input [WIDTH-1:0] A, B; 
+input sel; 
+output [WIDTH-1:0] Y; 
+
+assign Y = sel ? B : A; 
+endmodule
